@@ -1,7 +1,7 @@
 {
   "name": "encrypted",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0",
@@ -10,7 +10,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.0"
   },
-  "homepage": "http://brosenthal3.github.io/encrypter",
+  "homepage": "https://brosenthal3.github.io/encrypter/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
