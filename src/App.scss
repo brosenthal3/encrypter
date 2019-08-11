@@ -1,0 +1,46 @@
+@import './colors.scss';
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    background:url(assets/metrix.jpg);
+    background-position: top;
+    background-size:cover;
+    color:$text-color;
+    line-height:1.5;
+    font-weight:400;
+}
+
+h1{
+    font-weight:550;
+    font-size:2.5rem;
+    margin:0;
+    margin-bottom:.5rem;
+}
+
+.page{
+    background:$background-main;
+    width:70%;
+    margin:auto;
+    margin-top:6vh;
+    padding:1.4rem;
+}
+
+@media(max-width:1000px){
+    .page{
+        width:80%;
+    }
+}
+@media(max-width:800px){
+    .page{
+        width:95%;
+    }
+}
+@media(max-width:680px){
+    .page{
+        width:100%;
+    }
+}

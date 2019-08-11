@@ -1,0 +1,51 @@
+@import '../../colors.scss';
+
+.customButton{
+    font-family:inherit;
+    display:inline-block;
+    vertical-align: middle;
+    border:1px solid transparent;
+    padding: .370rem .70rem;
+    font-size:1rem;
+    line-height: 1.5;
+    border-radius:.28rem;
+    cursor:pointer;
+    text-transform: capitalize;
+    margin-right:5px;
+}
+
+.grey{
+    color: #fff;
+    background-color: $grey;
+    border-color:$grey;
+
+    &:hover{
+        background-color:$grey-hover;
+        border-color:$grey-hover;
+    }
+}
+.dark-grey{
+    color: #fff;
+    background-color: $dark-grey;
+    border-color: $dark-grey;
+
+    &:hover{
+        background-color: $dark-grey-hover;
+        border-color: $dark-grey-hover;
+    }
+}
+
+.green{
+    color:#fff;
+    background-color:$main-color;
+    border-color:$main-color;
+
+    &:hover{
+        background-color:$secondary-color;
+        border-color:$secondary-color;
+    }
+}
+.small{
+    padding: .185rem .45rem;
+    font-size:.8em;
+}
